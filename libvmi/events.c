@@ -738,7 +738,7 @@ vmi_swap_events(
         }
 
         /*
-         * We can't swap events when in an event callback rigt away
+         * We can't swap events when in an event callback right away
          * because there may be more events in the queue already
          * that were triggered by the event we would be clearing now.
          * The driver needs to process this list when it can safely.
